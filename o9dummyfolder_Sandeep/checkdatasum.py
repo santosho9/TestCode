@@ -1,5 +1,7 @@
 class checkdatasum:
     import os
+    import gcsfs
+    import boto3
     
     def __init__(self, name):
         self.name = name
