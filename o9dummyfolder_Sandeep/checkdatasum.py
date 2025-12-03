@@ -2,7 +2,7 @@ class checkdatasum:
     import os
     
     #Importing Cloud SDK's like boto3 should fail the codelib repo installation when BDP Path Auth is enabled
-    #import boto3
+    import boto3
 
     
     def __init__(self, name):
